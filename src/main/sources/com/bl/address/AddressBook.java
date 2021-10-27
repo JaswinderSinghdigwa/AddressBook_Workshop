@@ -56,8 +56,8 @@ public class AddressBook {
 
 			String pName = firstName + lastName;
 			for (Iterator<ContactPerson> iterator = person.iterator(); iterator.hasNext();) {
-				ContactPerson temp = iterator.next();
-				String contactName = temp.getFirstName() + temp.getLastName();
+				ContactPerson contact = iterator.next();
+				String contactName = contact.getFirstName() + contact.getLastName();
 				if (contactName.equals(pName)) {
 					System.out.println("Sorry this contact already exists.");
 					return; // the name exists, so we exit the method.
