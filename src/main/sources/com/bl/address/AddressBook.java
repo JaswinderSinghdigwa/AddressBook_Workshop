@@ -14,7 +14,7 @@ public class AddressBook {
 	// variable
 	private static final Scanner scanner = new Scanner(System.in);
 	public static List<ContactPerson> person = new ArrayList<ContactPerson>();
-	public static HashMap<String, List<ContactPerson>> addressBookSystem = new HashMap<>();
+
 
 	/**
 	 * Create Constructor for Initializing the variables with parameters
